@@ -9,18 +9,15 @@ m = ?
 Andrés Vallejo Z
 """
 
-print ("Ingrese la variable x")
+print ("Ingrese la variable x")#Ingreso de la varriable x
 x = input()
-print ("Ingrese la variable y")
+print ("Ingrese la variable y")#Ingreso de la varriable y
 y = input()
-print ("Ingrese la variable z")
+print ("Ingrese la variable z")#Ingreso de la varriable z
 z = input()
-d = (float (x)-(float(y)/float(z)))
-n = (float (x)+(float (y)/float (z)))
-m = (float (n)/float (d))
-
-
-
+d = (float (x)-(float(y)/float(z))) #Numerador de la operacion
+n = (float (x)+(float (y)/float (z))) #Denominador de la operacion
+m = (float (n)/float (d)) #Operacion resultante
 
 
 
